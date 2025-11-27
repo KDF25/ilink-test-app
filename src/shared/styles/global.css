@@ -41,3 +41,9 @@
      font-family: 'Geist', system-ui, sans-serif;
   }
 }
+
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
