@@ -108,7 +108,7 @@ export const PriceChart: React.FC<PriceChartProps> = ({
 
 	return (
 		<div className="px-4 py-4  relative overflow-visible">
-			<ResponsiveContainer width={"100%"} height={370}>
+			<ResponsiveContainer width={"100%"} height={340}>
 				<ComposedChart
 					data={data}
 					margin={{ top: 0, right: 25, left: 0, bottom: 0 }}
